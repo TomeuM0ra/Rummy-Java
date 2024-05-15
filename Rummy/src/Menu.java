@@ -14,6 +14,7 @@ public class Menu {
         escaner.nextLine();
         return elecio;
     }
+
     public int modalidad(){
         int mode;
         Missatge.soutText("Selecioni la modalidad ");
