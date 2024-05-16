@@ -7,9 +7,9 @@ public class Menu {
         int elecio;
         Missatge.soutText("Menu de Variacions ");
         Missatge.soutText("1. Rummy");
-        Missatge.soutText("2. Rummikub");
-        Missatge.soutText("3. Gin Rummy");
-        Missatge.soutText("4. Rummy Argentino");
+        Missatge.soutText("2. Gin Rummy");
+        Missatge.soutText("3. Rummy Argentino");
+        Missatge.soutText("4. Rummikub");
         elecio =escaner.nextInt();
         escaner.nextLine();
         return elecio;

@@ -20,6 +20,10 @@ public class Game {
     }
 
     public Game(int num){
+            if (num == 1 || num == 2 || num == 3){
 
+            } else {
+
+            }
     }
 }
