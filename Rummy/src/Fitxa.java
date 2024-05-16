@@ -11,16 +11,14 @@ public class Fitxa {
         return palo;
     }
 
-    public void setPalo(String palo) {
-        this.palo = palo;
-    }
 
     public String getValor() {
         return valor;
     }
 
-    public void setValor(String valor) {
-        this.valor = valor;
+    @Override
+    public String toString() {
+        return valor + " de " + palo;
     }
 }
 
