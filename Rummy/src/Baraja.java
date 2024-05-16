@@ -14,8 +14,18 @@ public class Baraja {
                 cartas.add(new Fitxa(palo, valor));
             }
         }
+        
         Collections.shuffle(cartas);
     }
 
-    
+    public Fitxa repartirCarta() {
+        if (!cartas.isEmpty()) {
+            return cartas.remove(0);
+        }
+        return null;
+    }
+
+    public int getSize() {
+        return cartas.size();
+    }
 }
