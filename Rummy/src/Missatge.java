@@ -5,4 +5,7 @@ public class Missatge {
     public static void soutInt(int num){
         System.out.println(num);
     }
+    public static void soutFitxa(Fitxa pesa){
+        System.out.println(pesa);
+    }
 }
