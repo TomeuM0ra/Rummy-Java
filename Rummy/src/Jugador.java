@@ -17,5 +17,18 @@ public class Jugador {
         this.mano.remove(carta);
     }
 
-   
+    public void mostrarMano() {
+        System.out.println(nombre + " mano:");
+        for (Fitxa carta : mano) {
+            Missatge.soutFitxa(carta);
+        }
+    }
+
+    public ArrayList<Fitxa> getMano() {
+        return mano;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
 }
