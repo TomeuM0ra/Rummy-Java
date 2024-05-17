@@ -15,7 +15,8 @@ public class Baraja {
                     cartes.add(new Fitxa(palo, valor));
                 }
             }
-        } else {
+        }
+        if (num == 2){
             String [] colors = {"negre","vermell","blau","groc"};
             String [] valors = {"1","2","3","4","5","6","7","8","9","10","11","12","13",};
 
