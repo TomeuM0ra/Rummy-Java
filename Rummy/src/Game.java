@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+
 public class Game {
+    private String jugador ;
     private static Menu menu = new Menu();
 
     public static int eleccio(){
@@ -24,6 +27,10 @@ public class Game {
 
             } else {
                 Baraja cartes = new Baraja(2);
+
             }
+    }
+    public void jugar(){
+
     }
 }
